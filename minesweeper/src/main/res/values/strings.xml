@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">minesweeper</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_mainMenu">Main Menu</string>
+    <string name="app_title">Minesweeper</string>
+    <string name="txtEasyMode">Easy</string>
+    <string name="txtMediumMode">Medium</string>
+    <string name="txtHardMode">Hard</string>
+    <string name="txtCustomMode">Custom</string>
+    <string name="txtScores">Scores</string>
+    <string name="title_activity_play_game">PlayGame</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_scores2">Scores2</string>
+    <string name="title_activity_scores">Scores</string>
+
+</resources>

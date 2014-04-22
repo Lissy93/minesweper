@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="lytMainGrid" type="id">lytMainGrid</item>
+    <item name="lytTopBar" type="id">lytTopBar</item>
+    <item name="txtMineCount" type="id">txtMineCount</item>
+    <item name="txtTimer" type="id">txtTimer</item>
+    <item name="btnSmiley" type="id">btnSmiley</item>
+    <item name="txtGridWidth" type="id"/>
+    <item name="lblGridWidth" type="id"/>
+    <item name="lblGridHeight" type="id"/>
+    <item name="txtGridHeight" type="id"/>
+    <item name="lblNumMines" type="id"/>
+    <item name="txtNumMines" type="id"/>
+    <item name="lblIsTimed" type="id"/>
+    <item name="chkIsTimed" type="id"/>
+    <item name="cmdStartCstom" type="id"/>
+    <item name="cmdPlayAgain" type="id"/>
+    <item name="cmdMainMenu" type="id"/>
+    <item name="cmdScores" type="id"/>
+    <item name="txtName" type="id"/>
+    <item name="cmdScoreLink" type="id"/>
+    <item name="chkTimed" type="id"/>
+    <item name="lblTimed" type="id"/>
+    <item name="lblSound" type="id"/>
+    <item name="chkSound" type="id"/><item name="lytMainScores" type="id"/><item name="btnEasy" type="id"/><item name="btnMedium" type="id"/><item name="btnHard" type="id"/><item name="chkTimedScores" type="id"/>
+</resources>

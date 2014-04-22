@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    tools:context="net.as93.minesweeper.PlayGame"
+    android:paddingTop="35dp">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal|top"
+        android:id="@id/lytTopBar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@id/txtTimer"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="8sp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginLeft="5sp"
+            android:id="@id/btnSmiley"
+            android:scaleType="fitCenter"
+            android:padding="5dp"
+            android:src="@drawable/face_happy" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mine2"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="8sp"
+            android:layout_marginRight="25sp"
+            android:layout_marginBottom="8sp"
+            android:layout_marginLeft="8sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@id/txtMineCount"
+            android:layout_alignParentRight="true"
+            android:layout_margin="8sp" />
+    </RelativeLayout>
+
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        android:id="@id/lytMainGrid"
+        android:background="@drawable/app_background"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="52dp"
+        android:padding="2dp">
+
+        </LinearLayout>
+
+
+</FrameLayout>
