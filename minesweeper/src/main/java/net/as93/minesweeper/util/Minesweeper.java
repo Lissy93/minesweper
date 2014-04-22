@@ -308,7 +308,7 @@ public class Minesweeper {
         String mode = scoreObj.getGameMode();
         String timed = ((scoreObj.isTimed()) ? "true" : "false");
 
-        String myUri = "http://android.as93.net/minesweeper/setscore.php?usersname="+usersname+"&time="+time+"&timed="+timed+"&mode="+mode;
+        String myUri = "-----HIDDEIN-FOR-SECURITY----"+mode;
         try{
             Eventupdate eu = new Eventupdate();
             eu.execute(myUri);
